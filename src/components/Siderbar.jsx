@@ -38,7 +38,7 @@ const MobileSidebar = () => {
             <div className='w-full flex justify-center'>
                 <img src="/logo.png" alt='logo' className='h-10' />
             </div>
-            <div className='flex justify-center gap-10 w-full mt-auto p-2 border-t fixed bottom-0 left-0 bg-white'>
+            <div className='flex justify-center gap-10 w-full mt-auto p-20 border-t fixed bottom-0 left-0 bg-white'>
                 <Link to={"/"}>
                     <Home size={"24"} className='cursor-pointer' />
                 </Link>
