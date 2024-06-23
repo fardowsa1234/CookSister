@@ -27,7 +27,7 @@ To get started with Cooksister locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/cooksister.git
+   git clone https://github.com/fardosafara/cooksister.git
    ```
 
 2. **Navigate to the project directory**:
@@ -68,4 +68,4 @@ Contributions are welcome! If you have any suggestions, improvements, or new fea
 ## Acknowledgements
 
 Thank you to my elder sister's for being the inspiration behind this project and for their love of cooking that motivated me to create Cooksister.
-# CookSister
+
