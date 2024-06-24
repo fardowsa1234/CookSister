@@ -29,7 +29,7 @@ const HomePage = () => {
 	};
 
 	useEffect(() => {
-		fetchRecipes("cinnamon rolls");
+		fetchRecipes("pasta");
 	}, []);
 
 	const handleSearchRecipe = (e) => {
