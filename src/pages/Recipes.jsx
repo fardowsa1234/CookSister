@@ -1,12 +1,11 @@
 
-
-const Home = () => {
+const Recipes = () => {
   return (
     <div>
-      <h1></h1>
+      <h1>Recipes</h1>
       {/* Add your content here */}
     </div>
   );
 };
 
-export default Home;
+export default Recipes;
