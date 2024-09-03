@@ -1,7 +1,7 @@
-import { Heart, Star} from 'lucide-react';
+import { Heart, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ onLoginClick, onRegisterClick }) => {
+const Navbar = () => {
   return (
     <nav className="flex flex-col sm:flex-row items-center justify-between w-full p-3 md:p-5 border-b bg-white">
       <div className="flex items-center justify-between w-full sm:w-auto">
@@ -20,21 +20,6 @@ const Navbar = ({ onLoginClick, onRegisterClick }) => {
           <Star size="24" />
           <span className="font-bold hidden md:block">Popular</span>
         </Link>
-        <Link to="/recipes" className="flex gap-1 text-orange-500 hover:text-orange-700">
-          <span className="font-bold hidden md:block">Recipes</span>
-        </Link>
-        <button
-          onClick={onLoginClick}
-          className="flex gap-1 text-orange-500 hover:text-orange-700"
-        >
-          <span className="font-bold hidden md:block">Login</span>
-        </button>
-        <button
-          onClick={onRegisterClick}
-          className="flex gap-1 text-orange-500 hover:text-orange-700"
-        >
-          <span className="font-bold hidden md:block">Register</span>
-        </button>
       </ul>
     </nav>
   );
